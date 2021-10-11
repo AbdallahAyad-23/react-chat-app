@@ -1,0 +1,18 @@
+.ham {
+  position: fixed;
+  right: 10px;
+}
+.line {
+  width: 35px;
+  height: 5px;
+  margin: 6px 0;
+  background: #161a1d;
+}
+.ham:hover {
+  cursor: pointer;
+}
+@media (min-width: 701px) {
+  .ham {
+    display: none;
+  }
+}
